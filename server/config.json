@@ -123,6 +123,12 @@
       "name": "Casters",
       "scene": "capture",
       "overlay": "casters"
+    },
+    {
+      "id": "monitor",
+      "name": "Monitor",
+      "scene": "monitor",
+      "overlay": "ingame"
     }
   ]
 }

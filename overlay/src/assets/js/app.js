@@ -1,6 +1,6 @@
 // Environment variables
 
-socketBase = "10.0.24.48:3000";
+socketBase = "10.0.24.48:3001";
 
 var app = angular.module("esport16FallLoLOverlay", [
     "ui.router",
