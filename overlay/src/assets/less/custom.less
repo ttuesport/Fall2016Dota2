@@ -91,7 +91,7 @@ html, body, .main-container {
 .ig-team-card {
   width: 245px;
   position: fixed;
-  top: 0;
+  top: 50px;
   background-size: cover;
   transition: all 0.2s ease-out;
   &.blue-team {
@@ -115,15 +115,15 @@ html, body, .main-container {
     }
   }
   &.loading {
-    transform: translateY(-100%);
+    transform: translateY(-200%);
   }
 }
 .ig-sponsor-box {
   position: absolute;
   height: 100px;
   width: 294px;
-  left: 310px;
-  bottom: 0;
+  right: 20px;
+  top: 50px;
   text-align: center;
   transition: all 0.2s ease-out;
   img {
@@ -132,7 +132,7 @@ html, body, .main-container {
     max-height: 80px;
   }
   &.loading {
-    transform: translateY(100%);
+    transform: translateY(-200%);
   }
 }
 .full-container {
